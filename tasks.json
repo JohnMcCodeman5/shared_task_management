@@ -1,0 +1,47 @@
+[
+    {
+      "task_id":1,
+      "description": "Complete project proposal",
+      "day": "Wednesday",
+      "date": "2024-02-28",
+      "startTime": "09:00",
+      "endTime": "12:00",
+      "status": "todo"
+    },
+    {
+      "task_id":2,
+      "description": "Meeting with client",
+      "day": "Wednesday",
+      "date": "2024-02-28",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "status": "todo"
+    },
+    {
+      "task_id":3,
+      "description": "Code review",
+      "day": "Thursday",
+      "date": "2024-02-29",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "status": "todo"
+    },
+    {
+      "task_id":4,
+      "description": "Prepare presentation slides",
+      "day": "Thursday",
+      "date": "2024-02-29",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "status": "todo"
+    },
+    {
+      "task_id":5,
+      "description": "Submit project proposal",
+      "day": "Friday",
+      "date": "2024-03-01",
+      "startTime": "08:00",
+      "endTime": "10:00",
+      "status": "todo"
+    }
+  ]

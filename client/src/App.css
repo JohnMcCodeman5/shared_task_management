@@ -1,0 +1,25 @@
+/*body {
+  background-color:rgb(228, 235, 236);
+}*/
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-section {
+  width: 17%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.left-section select{
+  width: 100%;
+}
+
+.right-section {
+  width: 100%;
+}
+

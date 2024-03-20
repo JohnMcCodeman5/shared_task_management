@@ -1,0 +1,30 @@
+.calendar-grid {
+  height: 43vh;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calendar-grid th,
+.calendar-grid td {
+  border: 1px solid #c9c5c5;
+  padding: 8px;
+  text-align: center;
+}
+
+.calendar-grid th {
+  background-color: #f2f2f2;
+}
+
+.calendar-grid tbody td:first-child {
+  font-weight: bold;
+}
+
+.task_field {
+  color: #ffffff;
+  background-color: #007bff;
+}
+
+
+.task_field:hover {
+  background-color: #0056b3;
+}
