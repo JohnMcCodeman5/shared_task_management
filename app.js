@@ -53,6 +53,25 @@ app.post('/api/saveTasks', async (req, res) => {
 });
 
 
+app.put('/api/updateTask', async (req, res) => {
+  try {
+    const updatedTask = req.body;
+    console.log('updatedTask: ' + updatedTask);
+    const taskId = updatedTask.task_id;
+    const existingTask = await Task.findOneAndUpdate({ task_id: taskId }, updatedTask, { new: true }); 
+
+    if (!existingTask) {
+      return res.status(404).json({ message: 'Task not found' });
+    }
+
+    res.status(200).json(existingTask);
+  } catch (error) {
+    console.error('Error updating task:', error);
+    res.status(500).json({ error: 'Failed to update task' });
+  }
+});
+
+
 app.delete('/api/deleteTask/:taskid', async (req, res) => {
   try {
     const desc = req.params.taskid;
